@@ -7,7 +7,7 @@ if os.getuid():
     sys.exit('You need root access to install!')
 
 
-os.system('clear')
+#os.system('clear')
 print()
 print()
 print("###################################")
@@ -28,7 +28,7 @@ print()
 server_port_choice = input("Which port would you like to use for the Configuration Page? [default: 80]: ")
 print()
 ssl_enabled_choice = input("Would you like to enable SSL during configuration mode \n(NOTICE: you will get a certificate ID error \nwhen connecting, but traffic will be encrypted) [y/N]?: ")
-os.system('clear')
+#os.system('clear')
 print()
 print()
 install_ans = input("Are you ready to commit changes to the system? [y/N]: ")
@@ -51,7 +51,7 @@ else:
 	print()
 	sys.exit()
 
-os.system('clear')
+#os.system('clear')
 print()
 print()
 print("#####################################")
