@@ -1,15 +1,7 @@
 import os
 
 def install_prereqs():
-#	os.system('clear')
-	os.system('apt update')
-#	os.system('clear')
-	os.system('apt install python3 python3-rpi.gpio python3-pip dnsmasq hostapd -y')
-#	os.system('clear')
-	print("Installing Flask web server...")
-	print()
-	os.system('pip3 install flask pyopenssl')
-#	os.system('clear')
+	os.system('install_prereqs.sh')
 
 def copy_configs(wpa_enabled_choice):
 	os.system('mkdir /usr/lib/raspiwifi')
