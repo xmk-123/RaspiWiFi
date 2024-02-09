@@ -32,7 +32,8 @@ this release.
 
 == Run:
 
-sudo python3 initial_setup.py
+chmod +x install.sh
+install.sh
 
 == This script will install all necessary prerequisites and copy all necessary
 config and library files, then reboot. When it finishes booting it should
